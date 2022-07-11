@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     
     var body: some View {
-        let IpsumLorem = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ex turpis, bibendum sed ante non, pretium mollis eros. Aenean tristique at nisl at maximus.  "
+        let IpsumLorem = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ex turpis, bibendum sed ante non, pretium mollis eros. Aenean tristique at nisl at maxi musn.  "
     
         VStack {
             NavigationView {
