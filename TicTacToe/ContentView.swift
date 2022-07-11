@@ -8,9 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        let IpsumLorem = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ex turpis, bibendum sed ante non, pretium mollis eros. Aenean tristique at nisl at maximus.  "
+    
+        VStack {
+            NavigationView {
+                VStack {
+                    Text(IpsumLorem)
+                    Spacer()
+                    NavigationLink(destination: BoardGameView()) {
+                        Text("COMMENCER")
+                    }
+                    Spacer()
+                    
+            }
+        }
+      }
     }
 }
 
@@ -19,3 +33,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+

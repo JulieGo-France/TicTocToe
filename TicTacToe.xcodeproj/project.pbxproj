@@ -14,6 +14,7 @@
 		CEFF6AFC287C21F5002F1F45 /* TicTacToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF6AFB287C21F5002F1F45 /* TicTacToeTests.swift */; };
 		CEFF6B06287C21F5002F1F45 /* TicTacToeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF6B05287C21F5002F1F45 /* TicTacToeUITests.swift */; };
 		CEFF6B08287C21F5002F1F45 /* TicTacToeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF6B07287C21F5002F1F45 /* TicTacToeUITestsLaunchTests.swift */; };
+		CEFF6B15287C223D002F1F45 /* BoardGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF6B14287C223D002F1F45 /* BoardGameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		CEFF6B01287C21F5002F1F45 /* TicTacToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacToeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEFF6B05287C21F5002F1F45 /* TicTacToeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeUITests.swift; sourceTree = "<group>"; };
 		CEFF6B07287C21F5002F1F45 /* TicTacToeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CEFF6B14287C223D002F1F45 /* BoardGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardGameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				CEFF6AEA287C21F2002F1F45 /* TicTacToeApp.swift */,
 				CEFF6AEC287C21F2002F1F45 /* ContentView.swift */,
+				CEFF6B14287C223D002F1F45 /* BoardGameView.swift */,
 				CEFF6AEE287C21F5002F1F45 /* Assets.xcassets */,
 				CEFF6AF0287C21F5002F1F45 /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEFF6B15287C223D002F1F45 /* BoardGameView.swift in Sources */,
 				CEFF6AED287C21F2002F1F45 /* ContentView.swift in Sources */,
 				CEFF6AEB287C21F2002F1F45 /* TicTacToeApp.swift in Sources */,
 			);
